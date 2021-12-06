@@ -182,3 +182,39 @@ input[name=DueDate_Board_Dividers] {
   background: #f6f6f6;
   color: #454545;
 }
+
+div.ganttview {
+  border: 1px solid $board-tasks-bg !important;
+}
+
+div.ganttview-vtheader {
+  background-color: $default-bg-color !important;
+  
+}
+
+div.ganttview-vtheader-item {
+  color: $default-dark-color !important;
+}
+
+div.ganttview-vtheader-series-name{
+  border-top: 1px solid $board-tasks-bg !important;
+}
+
+div.ganttview-vtheader-series-name a{
+  color: $default-dark-color !important;
+}
+
+div.ganttview-hzheader-day {
+  border-right: 1px solid $board-tasks-bg !important;
+  border-top: 1px solid $board-tasks-bg !important;
+  color: $default-dark-color !important;
+}
+
+div.ganttview-grid-row-cell {
+  border-right: 1px solid $board-tasks-bg !important;
+  border-top: 1px solid $board-tasks-bg !important;
+}
+
+div.ganttview-grid-row-cell.ganttview-weekend {
+  background-color: $header-project-bg-color-dark !important;
+}
