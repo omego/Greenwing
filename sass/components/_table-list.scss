@@ -219,7 +219,7 @@
 
     .task-list-subtasks {
       .subtask-cell a {
-        color: $default-color;
+        color: $default-dark-color;
       }
     }
 
@@ -257,8 +257,8 @@
 
     .task-list-subtask {
       .subtask-cell {
-        border-top: 1px solid $default-border-color;
-        border-left: 1px solid $default-border-color;
+        border-top: 1px solid $board-tasks-bg;
+        border-left: 1px solid $board-tasks-bg;
       }
       span {
         padding: 8px;
