@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-sass')(require('sass')),
     cleanCss = require('gulp-clean-css'),
     sourcemaps = require('gulp-sourcemaps'),
     clean = require('gulp-clean'),
