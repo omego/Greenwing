@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-sass')(require('sass')),
     cleanCss = require('gulp-clean-css'),
     sourcemaps = require('gulp-sourcemaps'),
     clean = require('gulp-clean'),
@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
     { series } = require('gulp');
     paths = {
-      host: 'kanboard.test',
+      host: 'https://kanboard.test',
       dest: 'dist',
       mainScss: 'sass/main.scss',
       scss: 'sass/**/*.scss',

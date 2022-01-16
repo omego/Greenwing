@@ -110,7 +110,7 @@ table {
 
     .dropdown a i,
     i {
-      padding-right: 3px;
+      padding-right: 3px !important;
     }
 
     a.dropdown-menu i {
@@ -150,4 +150,16 @@ table {
   &:focus {
     color: $primary-color;
   }
+}
+
+.js-subtask-toggle-status{
+  color: $default-dark-color;
+  &:hover,
+  &:focus {
+    color: $default-dark-color;;
+  }
+}
+
+table.table-striped tr:nth-child(odd){
+  background: transparent !important;
 }
