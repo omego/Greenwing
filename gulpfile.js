@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
     { series } = require('gulp');
     paths = {
-      host: 'kanboard.test',
+      host: 'https://kanboard.test',
       dest: 'dist',
       mainScss: 'sass/main.scss',
       scss: 'sass/**/*.scss',
